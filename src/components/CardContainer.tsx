@@ -23,8 +23,7 @@ const CardContainer = () => {
             setRules,
             setTemplates,
             setUsers,
-            setWorkflows,
-            resetState } = useContext(requestContext);
+            setWorkflows } = useContext(requestContext);
 
     const loadCards = async() => {
         await reqResApi.get<State>('/accounts/health/status')
@@ -96,7 +95,7 @@ const CardContainer = () => {
 
     useEffect(() => {
         loadState();
-    }, []);
+    }, [loadState]);
 
     return (
         <div className="flex flex-row flex-wrap justify-start p-8 gap-5">
