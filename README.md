@@ -13,8 +13,6 @@
 - **Context**
 - **TailwindCSS**
 
-## Feedback
+## Demo
 
-I enjoyed doing this challenge and I had to search some information about CORS. I hope you like it and sorry for the delay 🥰
-
-Greetings!
+https://factory-challenge.netlify.app
